@@ -14,7 +14,7 @@ ENV/
 
 # Environment and secret configuration
 .env
-.env.*
+
 
 # OS and editor specific files
 .DS_Store
