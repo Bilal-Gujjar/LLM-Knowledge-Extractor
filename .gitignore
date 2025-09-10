@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment directories
+env/
+venv/
+.venv/
+ENV/
+
+# Environment and secret configuration
+.env
+.env.*
+
+# OS and editor specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.ipynb_checkpoints/
+
+# Testing and coverage
+.pytest_cache/
+.cache/
+htmlcov/
+
+# Build and distribution artifacts
+build/
+dist/
+downloads/
+*.egg-info/
+*.egg
+*.whl
+*.tar.gz
+*.zip
+
+# Node / frontend dependencies
+node_modules/
+
+# Database and local storage files
+*.db
+*.sqlite3
+*.sqlite
+test_db.db
+
+# Compiled code and type checker caches
+.mypy_cache/
+*.spec
+
+# Project-specific ignores
+# Ignore the Supabase migrations output, if generated locally
+migrations/*.log
+
+# Recommended ignores from FastAPI tutorial
+# Ignoring compiled files, environment secrets, and local database
+# See FastAPITutorial for context【683395703588309†L85-L95】
